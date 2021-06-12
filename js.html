@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RWD &middot; Technical Documentation</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- NAVIGATION BAR -->
+	<div id="navcontainer">
+		<nav id="navbar">
+			<div id="logodiv">
+				<a href="index.html" target="_blank">
+					<img id="logo" src="logo.png">
+				</a>
+			</div>
+			<header>JavaScript</header>
+			<a class="nav-link" href="#INTRODUCTION">INTRODUCTION</a>
+			<a class="nav-link" href="#GUIDE">GUIDE</a>
+			<a class="nav-link" href="#BEGINNER">BEGINNER</a>
+			<a class="nav-link" href="#INTERMEDIATE">INTERMEDIATE</a>
+			<a class="nav-link" href="#EXPERT">EXPERT</a>
+			<a class="nav-link" href="#REFERENCES">REFERENCES</a>
+		</nav>
+	</div>
+
+	<!-- TECHNICAL DOCUMENTATION-->
+	<main id="main-doc">
+		<header id="jsheader">
+			<h1>JavaScript</h1><br>
+			<h2>Documentation</h2>
+		</header>
+
+		<section id="INTRODUCTION" class="main-section eGray">
+			<header>INTRODUCTION</header>
+			<p>JavaScript (often shortened to JS) is a lightweight, interpreted, object-oriented language with first-class functions, and is best known as the scripting language for Web pages, but it's used in many non-browser environments as well. It is a prototype-based, multi-paradigm scripting language that is dynamic, and supports object-oriented, imperative, and functional programming styles.</p>
+			<p>JavaScript runs on the client side of the web, which can be used to design or program how the web pages behave on the occurrence of an event. JavaScript is an easy to learn and also powerful scripting language, widely used for controlling web page behavior.</p>
+			<code></code>
+		</section>
+
+		<section id="GUIDE" class="main-section dGray row">
+			<header>GUIDE</header><br><br>
+			<div class="fourcolumn">
+				<h2>Introduction</h2>
+				<ul>
+					<li>About this guide</li>
+					<li>About JavaScript</li>
+					<li>JavaScript and Java</li>
+					<li>ECMAScript</li>
+					<li>Tools</li>
+					<li>Hello World</li>
+				</ul>
+				<h2>Grammar and types</h2>
+				<ul>
+					<li>Basic syntax & comments</li>
+					<li>Declarations</li>
+					<li>Variable scope</li>
+					<li>Variable hoisting</li>
+					<li>Data structures and types</li>
+					<li>Literals</li>
+				</ul>
+				<h2>Control flow and error handling</h2>
+				<ul>
+					<li>if...else</li>
+					<li>switch</li>
+					<li>try/catch/throw</li>
+					<li>Error objects</li>
+				</ul>
+				<h2>Loops and iteration</h2>
+				<ul>
+					<li>for</li>
+					<li>while</li>
+					<li>do...while</li>
+					<li>continue</li>
+					<li>break</li>
+					<li>for..in</li>
+					<li>for..of</li>
+				</ul>
+			</div>
+
+			<div class="fourcolumn"> 
+				<h2>Functions</h2>
+				<ul>
+					<li>Defining functions</li>
+					<li>Calling functions</li>
+					<li>Function scope</li>
+					<li>Closures</li>
+					<li>Arguments & parameters</li>
+					<li>Arrow functions</li>
+				</ul>
+				<h2>Expressions and operators</h2>
+				<ul>
+					<li>Assignment & Comparisons</li>
+					<li>Arithmetic operators</li>
+					<li>Bitwise & logical operators</li>
+					<li>Conditional (ternary) operator</li>
+				</ul>
+				<h2>Numbers and dates</h2>
+				<ul>
+					<li>Number literals</li>
+					<li>Number object</li>
+					<li>Math object</li>
+					<li>Date object</li>
+				</ul>
+				<h2>Text formatting</h2>
+				<ul>
+					<li>String literals</li>
+					<li>String object</li>
+					<li>Template literals</li>
+					<li>Internationalization</li>
+					<li>Regular Expressions</li>
+				</ul>
+			</div>
+
+			<div class="fourcolumn">
+				<h2>Indexed collections</h2>
+				<ul>
+					<li>Arrays</li>
+					<li>Typed arrays</li>
+				</ul>
+				<h2>Keyed collections</h2>
+				<ul>
+					<li>Map</li>
+					<li>WeakMap</li>
+					<li>Set</li>
+					<li>WeakSet</li>
+				</ul>
+				<h2>Working with objects</h2>
+				<ul>
+					<li>Objects and properties</li>
+					<li>Creating objects</li>
+					<li>Defining methods</li>
+					<li>Getter and setter</li>
+				</ul>
+				<h2>Details of the object model</h2>
+				<ul>
+					<li>Prototype-based OOP</li>
+					<li>Creating object hierarchies</li>
+					<li>Inheritance</li>
+				</ul>
+			</div>
+			<div class="fourcolumn">
+				<h2>Promises</h2>
+				<ul>
+					<li>Guarantees</li>
+					<li>Chaining</li>
+					<li>Error propagation</li>
+					<li>Composition</li>
+					<li>Timing</li>
+				</ul>
+				<h2>Iterators and generators</h2>
+				<ul>
+					<li>Iterators</li>
+					<li>Iterables</li>
+					<li>Generators</li>
+				</ul>
+				<h2>Meta programming</h2>
+				<ul>
+					<li>Proxy</li>
+					<li>Handlers and traps</li>
+					<li>Revocable Proxy</li>
+					<li>Reflect</li>
+				</ul>
+				<h2>JavaScript modules</h2>
+				<ul>
+					<li>Exporting</li>
+					<li>Importing</li>
+					<li>Default exports</li>
+					<li>Renaming features</li>
+					<li>Aggregating modules</li>
+					<li>Dynamic module loading</li>
+				</ul>
+			</div>
+			<code></code>
+		</section>
+
+		<section id="BEGINNER" class="main-section cGray">
+			<header>BEGINNER</header>
+			<h2>Variables</h2>
+			<p>Variables are containers that store values. You can declare a variable with the <code>var</code> keyword.</p>
+			<code class="example">var cute;</code>
+			<p>To initialize a variable, do this:</p>
+			<code class="example">cute = 'Gianna';</code>
+			<p>If you want to be concise (recommended), you can do all that in one line of code:</p>
+			<code class="example">var cute = 'Gianna';</code>
+			<p>You can also declare a variable with the <code>let</code> keyword.</p>
+			<code class="example">let veryCute;</code>
+
+		</section>
+
+		<section id="INTERMEDIATE" class="main-section bGray">
+			<header>INTERMEDIATE</header>
+			<p></p>
+			<code></code>
+		</section>
+
+		<section id="EXPERT" class="main-section aGray">
+			<header>EXPERT</header>
+			<p></p>
+			<code></code>
+		</section>
+
+		<section id="REFERENCES" class="main-section zGray">
+			<header>REFERENCES</header>
+			<p></p>
+			<code></code>
+		</section>
+	</main>
+	<!-- FOOTER
+	<footer>
+		Copyright &copy; 2021 by 
+		<a href="https://github.com/giannacrisha" id="gitlink">Gianna Saludo</a><br>
+		Click <a href="https://codepen.io/giannacrisha/pen/gOmBGzR" target="_blank">here</a> to view the CodePen app with the test suite.</p>
+	</footer> -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
